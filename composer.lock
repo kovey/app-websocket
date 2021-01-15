@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "890ce1ed711c7662a7d7bb7a7c69bf7f",
+    "content-hash": "26bc2852cb9a1735c7f57737ece76550",
     "packages": [
         {
             "name": "kovey/connection",
@@ -663,16 +663,16 @@
         },
         {
             "name": "kovey/websocket",
-            "version": "dev-master",
+            "version": "v2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kovey/websocket.git",
-                "reference": "eb9daa5fdda8aa22f7a565547ab4b2f68ef78f8f"
+                "reference": "1d22e09c4fdd2e05ae8a7beb8d1fd26c94ff0a49"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kovey/websocket/zipball/eb9daa5fdda8aa22f7a565547ab4b2f68ef78f8f",
-                "reference": "eb9daa5fdda8aa22f7a565547ab4b2f68ef78f8f",
+                "url": "https://api.github.com/repos/kovey/websocket/zipball/1d22e09c4fdd2e05ae8a7beb8d1fd26c94ff0a49",
+                "reference": "1d22e09c4fdd2e05ae8a7beb8d1fd26c94ff0a49",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -716,7 +716,7 @@
                 "php",
                 "websocket"
             ],
-            "time": "2021-01-15T06:12:08+00:00"
+            "time": "2021-01-15T09:40:46+00:00"
         }
     ],
     "packages-dev": [
@@ -2878,9 +2878,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "kovey/websocket": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
