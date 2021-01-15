@@ -98,6 +98,7 @@ class Bootstrap
 		})
         ->on('monitor', function (TE\Monitor $event) {
             // monitor process
+            // some code here
         })
         ->serverOn('error', function (TE\Error $event) {
             $error = new Protobuf\Error();
@@ -118,7 +119,7 @@ class Bootstrap
             // some code here
         })
         ->serverOn('open', function (TE\Open $event) use ($app) {
-            var_dump($event->getRequest()->server);
+            // some code here
         });
 	}
 }
