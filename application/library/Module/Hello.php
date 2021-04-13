@@ -18,8 +18,6 @@ class Hello
 {
     public function world(PacketHello $hello, $fd)
     {
-        $this->redis->set('kovey', $hello->getName());
-        $result = $this->redis->get('kovey');
         $hello->setLabels(array('aaaa', 'bbb'));
 
         return array(
