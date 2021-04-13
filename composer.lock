@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "01df2af9e3bc2cd71af7c960d0da3aa9",
+    "content-hash": "87f37fee9efb6fc311c16ef6dee0f7ef",
     "packages": [
         {
             "name": "kovey/app",
@@ -718,7 +718,7 @@
         },
         {
             "name": "kovey/websocket",
-            "version": "dev-master",
+            "version": "v3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kovey/websocket.git",
@@ -2938,9 +2938,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "kovey/websocket": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
